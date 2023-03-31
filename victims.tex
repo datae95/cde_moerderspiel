@@ -2,15 +2,15 @@
 \usepackage{multicol}
 \usepackage[a4paper,margin=3cm,top=1cm,bottom=1cm]{geometry}\usepackage{csvsimple}
 \usepackage{longtable}
+
 \begin{document}
-\begin{longtable}{|ll|}\hline%
-\csvreader[
-head to column names
-]{victims.csv}{}{%
-\parbox[c][2cm][c]{.45\linewidth}{Dein nächstes Opfer:} 
-& \parbox[c][2cm][c]{.45\linewidth}{\textbf{\player}} 
-\\\hline
-}%
-\end{longtable}\end{document}
+  \begin{longtable}{|ll|}\hline%
+    \csvreader[head to column names]{victims.csv}{}{%
+      \parbox[c][2cm][c]{.45\linewidth}{Dein nächstes Opfer:} 
+      & \parbox[c][2cm][c]{.45\linewidth}{\textbf{\player}} 
+      \\\hline
+    }%
+  \end{longtable}
+\end{document}
 
 

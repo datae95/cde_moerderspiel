@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{multicol}
+\usepackage[a4paper,margin=3cm,top=1cm,bottom=1cm]{geometry}\usepackage{csvsimple}
+\usepackage{longtable}
+
+\begin{document}
+  \section*{Friedhof + Teilnehmendenliste}
+
+  \begin{longtable}{|l|l|}\hline%
+    Name & Todesursache\\\hline
+    \csvreader[head to column names]{graveyard.csv}{}{%
+      \parbox[c][1.5cm][c]{.45\linewidth}{\textbf{\player}} 
+      & \parbox[c][1.5cm][c]{.45\linewidth}{\ }
+      \\\hline
+    }%
+  \end{longtable}
+\end{document}
