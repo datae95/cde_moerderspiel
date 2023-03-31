@@ -4,9 +4,9 @@
 ./sort.sh input.csv graveyard.csv
 ./make_victim_list.sh murderers.csv
 
-latexmk -pdf murderers.tex > /dev/null
-latexmk -pdf victims.tex > /dev/null
-latexmk -pdf graveyard.tex > /dev/null
+latexmk -pdf templates/murderers.tex > /dev/null
+latexmk -pdf templates/victims.tex > /dev/null
+latexmk -pdf templates/graveyard.tex > /dev/null
 ./merge_lists.sh
 
 mv murder_notes.pdf output/murder_notes.pdf

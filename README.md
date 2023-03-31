@@ -16,5 +16,4 @@ Das sollte von jemandem gemacht werden, der nicht am Spiel teilnimmt, da sonst d
 Eine Friedhofliste wird in Originalreihenfolge ebenfalls erstellt, die unter den Regeln ausgehängt werden kann.
 
 ## TODO 
-- alphabetische Sortierung der Teilnehmendenliste
-- Reihenfolge in Mörderliste und Opferliste gleich ändern, damit auch das Schneiden vom mitspielenden Spielleiter erledigt werden kann
+- Reihenfolge in der notes Datei ändern, damit auch das Schneiden vom mitspielenden Spielleiter erledigt werden kann
